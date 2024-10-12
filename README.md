@@ -61,6 +61,7 @@ The visual dashboard is composed of 5 visualizations: 1 line chart, 2 column cha
 
 
 In addition to these charts, I've added a slicer that filters the data in all charts based on the store location:
+
 ![1446-04-08 18_36_26-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/9dceb7aa-602a-4800-b026-9753a149139a)
 
 
