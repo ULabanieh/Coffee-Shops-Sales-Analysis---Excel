@@ -23,43 +23,46 @@ Highlighted in a different colors are the calculated columns that I added to the
 
 *Sample Data:*
 
-![[1446-04-08 11_42_11-Coffee Shop Sales.xlsx - Excel.png]]
+![1446-04-08 11_42_11-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/727300ba-95b9-43a6-91d7-496fb39d1f5b)
+
 *NOTE:* *please note that in the "Transactions" sheet you might see the 'month_name' and 'day_of_week_name' column records written in Arabic. This is due to the regional formatting I use. However, this has been corrected to the English names of the months and weekdays in the final Dashboard and Pivot Tables.*
 # Explore the Data with Pivot Tables
 ---
 In this second step I created 5 Pivot Tables that summarize the data we have. I have hidden the Pivot Tables from the worksheet for aesthetic purposes, but if you wish to view them you can right click on the edge of the A column and select "Unhide" These Pivot Tables are as follows:
 ###### **Revenue by Month:** sums up the calculated 'revenue' column by month
-![[1446-04-08 18_12_08-Coffee Shop Sales.xlsx - Excel.png]]
+![1446-04-08 18_12_08-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/9ed4b6d1-1064-4319-abf4-b81119a50b20)
 ###### **Number of Transactions by Day of Week**
-![[1446-04-08 18_15_18-Coffee Shop Sales.xlsx - Excel.png]]
+![1446-04-08 18_15_18-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/e26a852f-9b0c-4a0f-9763-5711400e8915)
 ###### **Number of Transactions by Hour of Day**
-![[1446-04-08 18_15_36-Coffee Shop Sales.xlsx - Excel.png]]
+![1446-04-08 18_15_36-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/89a96652-a4d8-4575-97fd-4d8ffdeb675d)
 ###### **Number of Transactions by Product Category**
-![[1446-04-08 18_15_51-Coffee Shop Sales.xlsx - Excel.png]]
+![1446-04-08 18_15_51-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/09d13532-85c3-46d3-a418-e0db0c9deff8)
 ###### **Top 15 by Number of Transactions, Revenue and Product Type:** this Pivot Table was included as part of the visualization dashboard 
-![[1446-04-08 18_35_24-Coffee Shop Sales.xlsx - Excel.png]]
+![1446-04-08 18_35_24-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/1496ab65-955d-4677-b503-4ed8a9678f4e)
 
 # Build Dashboard
 ---
 The visual dashboard is composed of 5 visualizations: 1 line chart, 2 column charts, 1 bar charts and 1 table. The dashboard has a common design in regards to color and formatting throughout all charts. Clutter was removed and the area where I intend the viewer to focus on is highlighted in each chart title. The visualizations are as follows:
 
 ###### **Total Revenue by Month:** revenue evolution by each month in timeseries-like line chart
-![[1446-04-08 18_35_51-Coffee Shop Sales.xlsx - Excel.png]]
+![1446-04-08 18_35_51-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/270ab892-7d18-4c5d-a4ad-2da3d7ff4354)
 
 ###### **Transactions by Day of Week:** column chart displaying the total number of transactions by each day of the week (Tuesday, Wednesday, etc...)
-![[1446-04-08 18_36_53-Coffee Shop Sales.xlsx - Excel.png]]
+![1446-04-08 18_36_53-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/b3e9996d-2566-4f7a-99f4-fa86fd2a8def)
 
 ###### **Transactions by Hour of Day:** column chart displaying the total number of transactions by each hour of the day. Keep in mind that the shops open at 6:00 and close at 20:00
-![[1446-04-08 18_42_18-Coffee Shop Sales.xlsx - Excel 1.png]]
+![1446-04-08 18_42_18-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/e1cda86a-d033-42eb-b9a5-d1be910ba165)
 
 ###### **Transactions by Product Category:** bar chart displaying the total number of transactions by each product category (Coffee, Tea, Bakery, etc...)
-![[1446-04-08 18_42_54-Coffee Shop Sales.xlsx - Excel.png]]
+![1446-04-08 18_42_54-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/e4a356ae-c61e-432a-a432-1c4db847c49a)
 
 ###### **Top 15 Products:** table chart displaying the highest 15 products in terms of revenue and total number of transactions. This chart is sorted in descending order based on the transactions
-![[1446-04-08 18_35_24-Coffee Shop Sales.xlsx - Excel 1.png]]
+![1446-04-08 18_35_24-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/be987d7d-8c3e-4d1b-8497-12962ced258f)
+
 
 In addition to these charts, I've added a slicer that filters the data in all charts based on the store location:
-![[1446-04-08 18_36_26-Coffee Shop Sales.xlsx - Excel.png]]
+![1446-04-08 18_36_26-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/9dceb7aa-602a-4800-b026-9753a149139a)
+
 
 # Observations and Actions
 ---
