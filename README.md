@@ -25,7 +25,7 @@ Highlighted in a different colors are the calculated columns that I added to the
 
 ![1446-04-08 11_42_11-Coffee Shop Sales xlsx - Excel](https://github.com/user-attachments/assets/727300ba-95b9-43a6-91d7-496fb39d1f5b)
 
-*NOTE:* *please note that in the "Transactions" sheet you might see the 'month_name' and 'day_of_week_name' column records written in Arabic. This is due to the regional formatting I use. However, this has been corrected to the English names of the months and weekdays in the final Dashboard and Pivot Tables.*
+*NOTE:* *please note that in the "Transactions" sheet you might see the 'month_name' and 'day_of_week_name' column records written in Arabic. This is due to the regional formatting I use. However, this has been converted to the English names of the months and weekdays in the final Dashboard and Pivot Tables.*
 # Explore the Data with Pivot Tables
 ---
 In this second step I created 5 Pivot Tables that summarize the data we have. I have hidden the Pivot Tables from the worksheet for aesthetic purposes, but if you wish to view them you can right click on the edge of the A column and select "Unhide" These Pivot Tables are as follows:
